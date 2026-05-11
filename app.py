@@ -21,8 +21,8 @@ st.set_page_config(
 # ── Load model & vectorizer ───────────────────────────────────
 @st.cache_resource
 def load_model():
-    model      = joblib.load(r"C:\Users\u1602\PycharmProjects\New Project\best_model.pkl")
-    vectorizer = joblib.load(r"C:\Users\u1602\PycharmProjects\New Project\vectorizer.pkl")
+    model      = joblib.load("best_model.pkl")
+    vectorizer = joblib.load("vectorizer.pkl")
     return model, vectorizer
 
 model, vectorizer = load_model()
@@ -32,7 +32,6 @@ model, vectorizer = load_model()
 def load_nlp():
     nltk.download('punkt',     quiet=True)
     nltk.download('stopwords', quiet=True)
-    nltk.download('punkt_tab', quiet=True)
     return PorterStemmer(), set(stopwords.words('english'))
 
 stemmer, stop_words = load_nlp()

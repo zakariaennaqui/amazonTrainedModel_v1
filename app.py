@@ -64,12 +64,15 @@ col3.metric("Dataset",   "3.6M avis")
 st.markdown("---")
 
 # ── Input ─────────────────────────────────────────────────────
-# ── Input ─────────────────────────────────────────────────────
 st.subheader("✍️ Entrez votre avis (en anglais)")
 
 # Initialisation session state
 if "review_text" not in st.session_state:
     st.session_state.review_text = ""
+
+# Function to load example
+def load_example(text):
+    st.session_state.review_text = text
 
 # Text area
 user_input = st.text_area(
@@ -93,9 +96,12 @@ examples = [
 cols = st.columns(2)
 
 for i, ex in enumerate(examples):
-    if cols[i % 2].button(f"📝 Exemple {i+1}", key=f"ex{i}"):
-        st.session_state.review_text = ex
-        st.rerun()
+    cols[i % 2].button(
+        f"📝 Exemple {i+1}",
+        key=f"ex{i}",
+        on_click=load_example,
+        args=(ex,)
+    )
 
 # ── Predict ───────────────────────────────────────────────────
 if st.button("🔍 Analyser le sentiment", type="primary", use_container_width=True):

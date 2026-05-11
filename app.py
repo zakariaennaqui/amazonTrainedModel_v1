@@ -32,6 +32,7 @@ model, vectorizer = load_model()
 def load_nlp():
     nltk.download('punkt',     quiet=True)
     nltk.download('stopwords', quiet=True)
+    nltk.download('punkt_tab', quiet=True)
     return PorterStemmer(), set(stopwords.words('english'))
 
 stemmer, stop_words = load_nlp()

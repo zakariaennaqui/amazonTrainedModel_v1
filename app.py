@@ -14,7 +14,7 @@ from nltk.stem import PorterStemmer
 # ── Page config ───────────────────────────────────────────────
 st.set_page_config(
     page_title="Analyse de Sentiments",
-    page_icon="🛍️",
+    page_icon="/icon.png",
     layout="centered"
 )
 

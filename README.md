@@ -3,7 +3,7 @@
 > **Projet Data Mining**  
 > Prédiction automatique du sentiment (positif / négatif) d'avis clients Amazon à l'aide du Machine Learning.
 
-<p align="center">
+<p>
   <a href="https://github.com/zakariaennaqui/Android-AI-Study-Assistant/releases/latest">
     <img src="https://img.shields.io/github/v/release/zakariaennaqui/Android-AI-Study-Assistant?label=Download%20APK&color=4CAF50&style=for-the-badge" alt="Download APK"/>
   </a>

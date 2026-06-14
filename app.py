@@ -47,7 +47,7 @@ def preprocess_text(text):
 
 # ── UI ────────────────────────────────────────────────────────
 st.title("Analyse de Sentiments — Avis Amazon")
-st.markdown("**Projet Data Mining | Groupe 8 | Pr. KAISS Wijdane**")
+st.markdown("**Data Mining Project**")
 st.markdown("---")
 
 st.markdown("""
@@ -139,10 +139,10 @@ if st.button(" Analyser le sentiment", type="primary", use_container_width=True)
 
 st.markdown("---")
 st.markdown("""
-** À propos du modèle**
+**À propos du modèle**
 - **Algorithme** : Logistic Regression
 - **Vectorisation** : TF-IDF (50,000 features)
 - **Prétraitement** : Lowercase, suppression ponctuation, stop words, stemming
 - **Dataset** : Amazon Reviews (3.6M train / 400K test)
-- **Performance** : Accuracy 89.05% | F1-Score 89.10%
+- **Performance** : Accuracy 89.05%, F1-Score 89.10%
 """)

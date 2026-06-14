@@ -56,14 +56,14 @@ Ce projet réalise une **analyse de sentiments binaire** sur des avis Amazon en 
 Données brutes (train.csv / test.csv)
         │
         ▼
-┌───────────────────────────┐
+┌────────────────────────────┐
 │  1. Prétraitement du texte │
 │  • Lowercase               │
 │  • Suppression ponctuation │
 │  • Tokenization (NLTK)     │
 │  • Suppression stop words  │
 │  • Stemming (Porter)       │
-└───────────────────────────┘
+└────────────────────────────┘
         │
         ▼
 ┌────────────────────────────────┐
@@ -76,10 +76,10 @@ Données brutes (train.csv / test.csv)
         │
         ▼
 ┌──────────────────────────────────────────────┐
-│  3. Entraînement de 3 modèles comparés        │
+│  3. Entraînement de 3 modèles comparés       │
 │  ┌─────────────────┐  ┌──────────────────┐   │
 │  │  Naïve Bayes    │  │ Logistic Regress │   │
-│  │   83.53%        │  │   89.05% ✓      │   │
+│  │   83.53%        │  │   89.05% ✓                  
 │  └─────────────────┘  └──────────────────┘   │
 │  ┌─────────────────┐                         │
 │  │  Decision Tree  │                         │

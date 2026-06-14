@@ -46,6 +46,8 @@ def preprocess_text(text):
     return " ".join(tokens)
 
 # ── UI ────────────────────────────────────────────────────────
+st.image("heroHeader.webp", use_container_width=True)
+
 st.title("Analyse de Sentiments — Avis Amazon")
 st.markdown("**Data Mining Project**")
 st.markdown("---")

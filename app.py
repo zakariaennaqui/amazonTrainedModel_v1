@@ -46,7 +46,7 @@ def preprocess_text(text):
     return " ".join(tokens)
 
 # ── UI ────────────────────────────────────────────────────────
-st.title("🛍️ Analyse de Sentiments — Avis Amazon")
+st.title("Analyse de Sentiments — Avis Amazon")
 st.markdown("**Projet Data Mining | Groupe 8 | Pr. KAISS Wijdane**")
 st.markdown("---")
 
@@ -64,7 +64,7 @@ col3.metric("Dataset",   "3.6M avis")
 st.markdown("---")
 
 # ── Input ─────────────────────────────────────────────────────
-st.subheader("✍️ Entrez votre avis (en anglais)")
+st.subheader("Entrez votre avis (en anglais)")
 
 # Initialisation session state
 if "review_text" not in st.session_state:
@@ -83,7 +83,7 @@ user_input = st.text_area(
 )
 
 # ── Examples ──────────────────────────────────────────────────
-st.markdown("**💡 Exemples à tester :**")
+st.markdown("**Exemples à tester :**")
 
 examples = [
     "This product is absolutely amazing! Best purchase I ever made.",
@@ -97,16 +97,16 @@ cols = st.columns(2)
 
 for i, ex in enumerate(examples):
     cols[i % 2].button(
-        f"📝 Exemple {i+1}",
+        f"Exemple {i+1}",
         key=f"ex{i}",
         on_click=load_example,
         args=(ex,)
     )
 
 # ── Predict ───────────────────────────────────────────────────
-if st.button("🔍 Analyser le sentiment", type="primary", use_container_width=True):
+if st.button(" Analyser le sentiment", type="primary", use_container_width=True):
     if user_input.strip() == "":
-        st.warning("⚠️ Veuillez entrer un avis avant d'analyser.")
+        st.warning(" Veuillez entrer un avis avant d'analyser.")
     else:
         with st.spinner("Analyse en cours..."):
             clean   = preprocess_text(user_input)
@@ -116,13 +116,13 @@ if st.button("🔍 Analyser le sentiment", type="primary", use_container_width=T
             confidence = max(proba) * 100
 
         st.markdown("---")
-        st.subheader("📊 Résultat")
+        st.subheader(" Résultat")
 
         if pred == 1:
-            st.success(f"## ✅ Avis POSITIF")
+            st.success(f"## ✓ Avis POSITIF")
             st.balloons()
         else:
-            st.error(f"## ❌ Avis NÉGATIF")
+            st.error(f"## ✕ Avis NÉGATIF")
 
         # Confidence bar
         st.markdown(f"**Confiance du modèle : {confidence:.1f}%**")
@@ -134,12 +134,12 @@ if st.button("🔍 Analyser le sentiment", type="primary", use_container_width=T
         col2.metric("Probabilité Positif", f"{proba[1]*100:.1f}%")
 
         # Preprocessed text
-        with st.expander("🔬 Voir le texte après prétraitement"):
+        with st.expander(" Voir le texte après prétraitement"):
             st.code(clean)
 
 st.markdown("---")
 st.markdown("""
-**📌 À propos du modèle**
+** À propos du modèle**
 - **Algorithme** : Logistic Regression
 - **Vectorisation** : TF-IDF (50,000 features)
 - **Prétraitement** : Lowercase, suppression ponctuation, stop words, stemming

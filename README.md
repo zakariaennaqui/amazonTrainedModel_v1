@@ -271,6 +271,6 @@ Ce projet est accompagné de documents académiques :
 
 <div align="center">
 
-[Live App](https://amazon-trained-model-v1.streamlit.app) · [Contact](mailto:) · [Rapport](Rapport_Groupe8_Analyse_Sentiments.docx)
+[Live App](https://amazon-trained-model-v1.streamlit.app)
 
 </div>

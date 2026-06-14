@@ -1,6 +1,6 @@
 # Amazon Sentiment Analysis — Analyse de Sentiments
 
-> **Projet Data Mining | Groupe 8 | Pr. KAISS Wijdane**  
+> **Projet Data Mining**  
 > Prédiction automatique du sentiment (positif / négatif) d'avis clients Amazon à l'aide du Machine Learning.
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://amazon-trained-model-v1.streamlit.app)

@@ -22,22 +22,6 @@ L'application est déployée et accessible publiquement. Entrez n'importe quel a
 
 ---
 
-## Table des matières
-
-- [Aperçu du projet](#-aperçu-du-projet)
-- [Dataset](#-dataset)
-- [Architecture du pipeline](#-architecture-du-pipeline)
-- [Résultats des modèles](#-résultats-des-modèles)
-- [Visualisations](#-visualisations)
-- [Structure du projet](#-structure-du-projet)
-- [Installation locale](#-installation-locale)
-- [Déploiement sur Streamlit Cloud](#-déploiement-sur-streamlit-cloud)
-- [Utilisation de l'application](#-utilisation-de-lapplication)
-- [Fichiers du modèle](#-fichiers-du-modèle)
-- [Technologies utilisées](#-technologies-utilisées)
-
----
-
 ## Aperçu du projet
 
 Ce projet réalise une **analyse de sentiments binaire** sur des avis Amazon en anglais. Le modèle classifie chaque avis comme **Positif** ou **Négatif** avec un score de confiance.
@@ -195,10 +179,7 @@ Project/
 ├── longueur_avis.png               # Distribution longueur des avis
 ├── confusion_Logistic_Regression.png  # Matrice de confusion LR
 ├── confusion_Naïve_Bayes.png          # Matrice de confusion NB
-├── confusion_Decision_Tree.png        # Matrice de confusion DT
-│
-├── Presentation_Groupe8_Analyse_Sentiments.pptx  # Présentation PowerPoint
-└── Rapport_Groupe8_Analyse_Sentiments.docx       # Rapport complet du projet
+└── confusion_Decision_Tree.png        # Matrice de confusion DT
 ```
 
 ---

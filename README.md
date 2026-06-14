@@ -3,7 +3,7 @@
 > **Projet Data Mining**  
 > Prédiction automatique du sentiment (positif / négatif) d'avis clients Amazon à l'aide du Machine Learning.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://amazon-trained-model-v1.streamlit.app)
+[![Streamlit App]](https://amazon-trained-model-v1.streamlit.app)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange.svg)](https://scikit-learn.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

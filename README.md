@@ -3,10 +3,17 @@
 > **Projet Data Mining**  
 > Prédiction automatique du sentiment (positif / négatif) d'avis clients Amazon à l'aide du Machine Learning.
 
-[![Streamlit App]](https://amazon-trained-model-v1.streamlit.app)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange.svg)](https://scikit-learn.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<p align="center">
+  <a href="https://github.com/zakariaennaqui/Android-AI-Study-Assistant/releases/latest">
+    <img src="https://img.shields.io/github/v/release/zakariaennaqui/Android-AI-Study-Assistant?label=Download%20APK&color=4CAF50&style=for-the-badge" alt="Download APK"/>
+  </a>
+  <img src="https://img.shields.io/badge/Android-API%2024%2B-3DDC84?style=for-the-badge&logo=android" alt="Android API"/>
+  <img src="https://img.shields.io/badge/Spring%20Boot-4.0-6DB33F?style=for-the-badge&logo=springboot" alt="Spring Boot"/>
+  <img src="https://img.shields.io/badge/Gemini%20AI-2.0%20Flash-4285F4?style=for-the-badge&logo=google" alt="Gemini AI"/>
+  <a href="./AI_Study_Assistant_Presentation.pptx">
+  <img src="https://img.shields.io/badge/Presentation-PPTX-B7472A?style=for-the-badge&logo=microsoftpowerpoint" alt="Presentation"/>
+</a>
+</p>
 
 ---
 

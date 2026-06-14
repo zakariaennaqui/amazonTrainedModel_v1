@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Presentation-PPTX-B7472A?style=for-the-badge&logo=microsoftpowerpoint" alt="Presentation"/>
   </a>
   <a href="./Rapport_Groupe8_Analyse_Sentiments.docx">
-  <img src="https://img.shields.io/badge/Rapport-DOCX-B7472A?style=for-the-badge&logo=microsoftword" alt="Rapport"/>
+  <img src="https://img.shields.io/badge/Rapport-DOCX-4472C4?style=for-the-badge&logo=microsoftword" alt="Rapport"/>
   </a>
 </p>
 

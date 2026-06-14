@@ -322,28 +322,28 @@ def preprocess_text(text):
 
 ## Technologies utilisées
 
-| Technologie | Version | Usage |
-|-------------|---------|-------|
-| **Python** | 3.8+ | Langage principal |
-| **Streamlit** | Latest | Interface web / déploiement |
-| **scikit-learn** | Latest | Modèles ML + TF-IDF |
-| **NLTK** | Latest | Prétraitement NLP |
-| **joblib** | Latest | Sérialisation des modèles |
-| **pandas** | Latest | Manipulation des données |
-| **numpy** | Latest | Calcul numérique |
-| **scipy** | Latest | Matrices sparse (TF-IDF) |
-| **matplotlib** | Latest | Visualisations |
-| **seaborn** | Latest | Graphiques statistiques |
-| **tqdm** | Latest | Barres de progression |
+| Technologie | Usage |
+|-------------|-------|
+| **Python** | Langage principal |
+| **Streamlit** | Interface web / déploiement |
+| **scikit-learn** | Modèles ML + TF-IDF |
+| **NLTK** | Prétraitement NLP |
+| **joblib** | Sérialisation des modèles |
+| **pandas** | Manipulation des données |
+| **numpy** | Calcul numérique |
+| **scipy** | Matrices sparse (TF-IDF) |
+| **matplotlib** | Visualisations |
+| **seaborn** | Graphiques statistiques |
+| **tqdm** | Barres de progression |
 
 ---
 
 ## Rapport & Présentation
 
-Ce projet est accompagné de documents académiques complets :
+Ce projet est accompagné de documents académiques :
 
-- **`Rapport_Groupe8_Analyse_Sentiments.docx`** — Rapport détaillé couvrant : problématique, état de l'art, méthodologie, résultats et conclusions
-- **`Presentation_Groupe8_Analyse_Sentiments.pptx`** — Présentation PowerPoint pour la soutenance
+- **`Rapport_Groupe8_Analyse_Sentiments.docx`** — Rapport détaillé couvrant : problématique, méthodologie, résultats et conclusions
+- **`Presentation_Groupe8_Analyse_Sentiments.pptx`**
 
 ---
 

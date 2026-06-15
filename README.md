@@ -4,10 +4,10 @@
 > Prédiction automatique du sentiment (positif / négatif) d'avis clients Amazon à l'aide du Machine Learning.
 
 <p>
-  <a href="./Presentation_Groupe8_Analyse_Sentiments.pptx">
+  <a href="./docs/Presentation_Groupe8_Analyse_Sentiments.pptx">
   <img src="https://img.shields.io/badge/Presentation-PPTX-B7472A?style=for-the-badge&logo=microsoftpowerpoint" alt="Presentation"/>
   </a>
-  <a href="./Rapport_Groupe8_Analyse_Sentiments.docx">
+  <a href="./docs/Rapport_Groupe8_Analyse_Sentiments.docx">
   <img src="https://img.shields.io/badge/Rapport-DOCX-4472C4?style=for-the-badge&logo=microsoftword" alt="Rapport"/>
   </a>
 </p>
@@ -120,22 +120,22 @@ Données brutes (train.csv / test.csv)
 ## Visualisations
 
 ### Comparaison des modèles
-![Comparaison des modèles](comparaison_modeles.png)
+![Comparaison des modèles](graphes/comparaison_modeles.png)
 
 ### Répartition des sentiments dans le dataset
-![Distribution des classes](distribution_classes.png)
+![Distribution des classes](graphes/distribution_classes.png)
 
 > Le dataset est parfaitement équilibré : 1,800,000 avis négatifs et 1,800,000 avis positifs.
 
 ### Distribution de la longueur des avis
-![Longueur des avis](longueur_avis.png)
+![Longueur des avis](graphes/longueur_avis.png)
 
 > Les avis positifs sont légèrement plus courts que les négatifs en moyenne.
 
 ### Matrices de confusion
 
 **Logistic Regression (meilleur modèle)**
-![Matrice de confusion — Logistic Regression](confusion_Logistic_Regression.png)
+![Matrice de confusion — Logistic Regression](graphes/confusion_Logistic_Regression.png)
 
 - ✓ Vrais Positifs : 178,987
 - ✓ Vrais Négatifs : 177,230
@@ -143,10 +143,10 @@ Données brutes (train.csv / test.csv)
 - ✕ Faux Négatifs : 21,013
 
 **Naïve Bayes**
-![Matrice de confusion — Naïve Bayes](confusion_Naïve_Bayes.png)
+![Matrice de confusion — Naïve Bayes](graphes/confusion_Naïve_Bayes.png)
 
 **Decision Tree**
-![Matrice de confusion — Decision Tree](confusion_Decision_Tree.png)
+![Matrice de confusion — Decision Tree](graphes/confusion_Decision_Tree.png)
 
 ---
 
@@ -172,14 +172,7 @@ Project/
 ├── train.csv                       # Données brutes d'entraînement (~1.5 GB)
 ├── test.csv                        # Données brutes de test (~175 MB)
 ├── train_clean.csv                 # Données prétraitées d'entraînement (~856 MB)
-├── test_clean.csv                  # Données prétraitées de test (~95 MB)
-│
-├── comparaison_modeles.png         # Graphique comparaison des modèles
-├── distribution_classes.png        # Répartition des sentiments
-├── longueur_avis.png               # Distribution longueur des avis
-├── confusion_Logistic_Regression.png  # Matrice de confusion LR
-├── confusion_Naïve_Bayes.png          # Matrice de confusion NB
-└── confusion_Decision_Tree.png        # Matrice de confusion DT
+└── test_clean.csv                  # Données prétraitées de test (~95 MB)
 ```
 
 ---
@@ -264,8 +257,8 @@ def preprocess_text(text):
 
 Ce projet est accompagné de documents académiques :
 
-- **`Rapport_Groupe8_Analyse_Sentiments.docx`** — Rapport détaillé couvrant : problématique, méthodologie, résultats et conclusions
-- **`Presentation_Groupe8_Analyse_Sentiments.pptx`**
+- **`docs/Rapport_Groupe8_Analyse_Sentiments.docx`** — Rapport détaillé couvrant : problématique, méthodologie, résultats et conclusions
+- **`docs/Presentation_Groupe8_Analyse_Sentiments.pptx`**
 
 ---
 

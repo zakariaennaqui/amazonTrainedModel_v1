@@ -7,6 +7,7 @@ import streamlit as st # streamlit run app.py
 import joblib
 import nltk
 import string
+import os
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
@@ -46,7 +47,10 @@ def preprocess_text(text):
     return " ".join(tokens)
 
 # ── UI ────────────────────────────────────────────────────────
-st.image("assets/heroHeader.webp", use_container_width=True)
+if os.path.exists("assets/heroHeader.webp"):
+    st.image("assets/heroHeader.webp", use_container_width=True)
+else:
+    st.write("")  # Placeholder for missing hero image
 
 st.title("Analyse de Sentiments — Avis Amazon")
 st.markdown("**Data Mining Project**")

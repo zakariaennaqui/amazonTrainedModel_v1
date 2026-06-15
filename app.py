@@ -14,7 +14,7 @@ from nltk.stem import PorterStemmer
 # ── Page config ───────────────────────────────────────────────
 st.set_page_config(
     page_title="Analyse de Sentiments",
-    page_icon="icon.png",
+    page_icon="assets/icon.png",
     layout="centered"
 )
 
@@ -46,7 +46,7 @@ def preprocess_text(text):
     return " ".join(tokens)
 
 # ── UI ────────────────────────────────────────────────────────
-st.image("heroHeader.webp", use_container_width=True)
+st.image("assets/heroHeader.webp", use_container_width=True)
 
 st.title("Analyse de Sentiments — Avis Amazon")
 st.markdown("**Data Mining Project**")
